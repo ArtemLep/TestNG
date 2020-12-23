@@ -45,16 +45,6 @@ public class LoginTest {
             System.out.println("Title is not matched. Test Fail");
         }
     }
-    @Test
-    public void LogoIsPrinted(){
-        String expectedTitle = "Logo";
-        String actualTitle = driver.();
-        if (expectedTitle.equals(actualTitle)) {
-            System.out.println("Title is valid. Test pass");
-        } else {
-            System.out.println("Title is not matched. Test Fail");
-        }
-    }
 
     @AfterMethod
     public void close() {
